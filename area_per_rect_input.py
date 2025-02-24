@@ -6,6 +6,8 @@
 import math
 
 def main():
+
+    # asks for user input to assign a value for width and length variables
     print("")
     print("what is the width of your rectangle")
     width = float(input(""))
@@ -14,6 +16,7 @@ def main():
     print("what is the length of your rectangle")
     length = float(input(""))
 
+    # calculates the area and perimeter of the rectangle 
     print("")
     print("The Area of your rectangle = {}".format(width * length))
     print("The Perimeter of your rectangle = {}".format(2 * (width + length)))
