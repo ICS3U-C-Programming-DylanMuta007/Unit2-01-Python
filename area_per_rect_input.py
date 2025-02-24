@@ -5,14 +5,18 @@
 
 import math
 
-print("")
-print("what is the width of your rectangle")
-width = float(input(""))
+def main():
+    print("")
+    print("what is the width of your rectangle")
+    width = float(input(""))
 
-print("")
-print("what is the length of your rectangle")
-length = float(input(""))
+    print("")
+    print("what is the length of your rectangle")
+    length = float(input(""))
 
-print("")
-print("The Area of your rectangle = {}".format(width * length))
-print("The Perimeter of your rectangle = {}".format(2 * (width + length)))
+    print("")
+    print("The Area of your rectangle = {}".format(width * length))
+    print("The Perimeter of your rectangle = {}".format(2 * (width + length)))
+
+if __name__ == "__main__":
+    main()
