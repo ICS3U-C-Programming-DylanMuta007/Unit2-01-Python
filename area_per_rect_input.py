@@ -20,6 +20,7 @@ def main():
     print("")
     print("The Area of your rectangle = {}".format(width * length))
     print("The Perimeter of your rectangle = {}".format(2 * (width + length)))
+    
 
 if __name__ == "__main__":
     main()
